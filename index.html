@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoàng Yến A2 | Học Tin học</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f7fb;
+      color: #203047;
+    }
+    header {
+      background: #142b49;
+      color: white;
+      padding: 25px 8%;
+    }
+    header h1 { margin: 0; font-size: 28px; }
+    header p { color: #c9d9e9; }
+    nav {
+      background: #203e60;
+      padding: 14px 8%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 65px 8%;
+      background: linear-gradient(120deg, #dceefa, #e4f5f1);
+    }
+    .hero h2 { font-size: 36px; margin: 0 0 15px; }
+    .hero p { font-size: 18px; line-height: 1.7; }
+    .content { padding: 35px 8%; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px #142b4912;
+    }
+    .card h3 { color: #167c80; }
+    footer {
+      text-align: center;
+      background: #142b49;
+      color: white;
+      padding: 25px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HOÀNG YẾN A2</h1>
+    <p>Góc học tập và khám phá thế giới Tin học</p>
+  </header>
+
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#knowledge">Kiến thức</a>
+    <a href="#documents">Tài liệu</a>
+    <a href="#exercises">Bài tập</a>
+    <a href="#about">Giới thiệu</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Chào mừng đến với góc học Tin học!</h2>
+    <p>
+      Cùng học hỏi, khám phá và phát triển kỹ năng công nghệ.
+      Đây là nơi chia sẻ kiến thức, tài liệu và bài tập Tin học
+      dành cho học sinh.
+    </p>
+  </section>
+
+  <main class="content">
+    <h2>KHÁM PHÁ NỘI DUNG</h2>
+    <div class="cards">
+      <section class="card" id="knowledge">
+        <h3>💻 Kiến thức Tin học</h3>
+        <p>Tổng hợp kiến thức cơ bản và những chủ đề thú vị về công nghệ.</p>
+      </section>
+      <section class="card" id="documents">
+        <h3>📚 Tài liệu học tập</h3>
+        <p>Nơi chia sẻ tài liệu, bài giảng và nguồn tham khảo hữu ích.</p>
+      </section>
+      <section class="card" id="exercises">
+        <h3>✏️ Luyện tập</h3>
+        <p>Cùng ôn tập và củng cố kiến thức qua các bài tập Tin học.</p>
+      </section>
+    </div>
+
+    <section id="about">
+      <h2>Về website</h2>
+      <p>
+        Website được xây dựng với mục đích chia sẻ kiến thức,
+        hỗ trợ học tập và khơi gợi niềm yêu thích Tin học.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Hoàng Yến A2 | Website học tập Tin học
+  </footer>
+</body>
+</html>
